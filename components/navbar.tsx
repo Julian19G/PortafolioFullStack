@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { itemsNavbar } from "@/data";
+import MotionTransition from "./transition-component";
 
 
 
@@ -10,7 +11,7 @@ import { itemsNavbar } from "@/data";
 const Navbar = () => {
     const router = usePathname()
     return (
-        <div className="fixed z-40 flex flex-com items-center justify-center w-full mt-auto h-max bottom-10">
+        <MotionTransition position="right" className="fixed z-40 flex flex-com items-center justify-center w-full mt-auto h-max bottom-10">
             <nav>
                 <div className="flex itmes-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
                 {itemsNavbar.map((item) => (
@@ -22,7 +23,7 @@ const Navbar = () => {
                 ) )}
                 </div>
             </nav>
-        </div>
+        </MotionTransition>
     );
 }
 
