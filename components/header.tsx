@@ -1,5 +1,6 @@
 import Link from "next/link";
 import MotionTransition  from "./transition-component";
+import { socialNetworks } from "@/data";
 
 const Header = () => {
     return (
@@ -8,10 +9,24 @@ const Header = () => {
         <div className="container justify-between max-w-6xl mx-auto md:flex">
             <Link href="/">
             <h1 className="my-3 text-4xl font-blod text-center md:text-left">
-
+            Julian
+            <span className="text-blue-500">
+                  Dev
+            </span>
             </h1>
-            JulianDev
             </Link>
+            <div className="flex items-center justify-center gap-7">
+            {socialNetworks.map(({ logo, src, id}) => (
+                <Link key={id}
+                href={src}
+                target="_blank"
+                className="transition-all duration-300 hover:text-blue-500"
+                >
+                    {logo}
+                </Link>
+            )
+        )}
+            </div>
         </div>
     </header>
    
