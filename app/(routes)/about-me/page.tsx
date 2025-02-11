@@ -2,6 +2,7 @@ import TransitionPage from "@/components/transition-page";
 import ContainerPage from "@/components/container";
 import Avatar from "@/components/avatar";
 import CounterServices from "@/components/counter-services";
+import TimeLine from "@/components/time-line";
 
 
 const PageAboutMe = () => {
@@ -15,6 +16,7 @@ const PageAboutMe = () => {
                 </h1>
 
                 <CounterServices />
+                <TimeLine />
             </ContainerPage>
         </>
     );
