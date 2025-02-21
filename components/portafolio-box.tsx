@@ -22,8 +22,12 @@ const PortafolioBox = (props: portafolioBoxProps) => {
             </h3>
            <Image src={image} alt="Image Product" width={200} height={200} className="w-full md:w-[200] rounded-2xl h-auto" />
            <div className="flex gap-5 mt-5">
-         
-
+            <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
+            Github
+            </Link>
+            <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-blue-500 hover:bg-blue-500/80">
+            Github
+            </Link>
             
 
            </div>

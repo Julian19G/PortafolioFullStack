@@ -19,7 +19,7 @@ const PortafolioPage = () => {
             <h1 className="text-2xl leading-tight text-center md:text-4xl md:md-5">
                 Mis ultimos trabajos <span className="text-blue-500 font-bold"> realizados </span>
             </h1>
-            <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 md:grid-cols-4">
+            <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 sm:grid-cols-2 md:grid-cols-4">
                 {dataPortfolio.map((data) =>(
                 <PortafolioBox key={data.id} data={data} />
                 ))}
