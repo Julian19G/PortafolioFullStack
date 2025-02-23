@@ -6,9 +6,9 @@ import { TypeAnimation } from "react-type-animation";
 
 const Introduction = () => {
     return (
-        <div className="z-20 w-full bg-darkBg/60">
-            <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
-                <Image src="/home-4.png" priority width="400" height="400" alt="Profile pic" />
+        <div className="p-20 z-20 w-full bg-darkBg/60">
+            <div className="z-20 grid items-center h-full p-40 py-20 md:py-0 md:grid-cols-2">
+                <Image src="/avatar4kPs.png" priority width="300" height="300" alt="Profile pic" />
 
             <div className="flex flex-col justify-center max-w-md">
                 <h1 className="mb-5 text-2xl leading-light text-center md:text-left">
@@ -27,7 +27,7 @@ const Introduction = () => {
                     />
                 </h1>
                 <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                    Como desarrollador full-stack, y mi bootcamp de inteligencia artificial me dedico a resolucion de problemas mediante metodos innovadores que permite a la empresa encontrar soluciones optimizando sus procesos
+                Como desarrollador full stack con formación en inteligencia artificial a través de un bootcamp especializado, me enfoco en la resolución de problemas mediante métodos innovadores que permiten a las empresas optimizar sus procesos y alcanzar sus objetivos de manera eficiente. Mi enfoque combina habilidades técnicas avanzadas con una mentalidad analítica, lo que me permite diseñar e implementar soluciones tecnológicas que impulsan la productividad y la competitividad.
                 </p>
 
                 <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">

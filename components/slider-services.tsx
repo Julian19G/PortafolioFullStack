@@ -27,7 +27,7 @@ import {  Pagination } from "swiper/modules";
             clickable: true
         }}
         modules={[Pagination]}
-        className="h-[280 px] md:h-[340px] w-[270 px] md:w-[550 px]">
+        className="h-[280 px] md:h-[340px] w-full px-6 md:px-12">
             {serviceData.map((item, index) => (
                 <SwiperSlide key={index}>
                     <div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg
