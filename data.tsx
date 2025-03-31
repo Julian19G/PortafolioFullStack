@@ -125,6 +125,20 @@ export const dataPortfolio = [
         urlGithub: "https://github.com/Julian19G/Portafolio",
         urlDemo: "#!",
     },
+    {
+        id: 2,
+        title: "TravelApp",
+        image: "/image-2.jpg",
+        urlGithub: "https://github.com/Julian19G/TravelAppBackendLaravel",
+        urlDemo: "https://github.com/Julian19G/TravelAppFrontedAngular",
+    },
+    {
+        id: 3,
+        title: "TradingApp",
+        image: "/image-3.jpg",
+        urlGithub: "https://github.com/Julian19G/TradingAppBackend",
+        urlDemo: "https://github.com/Julian19G/TradingAppFrontend",
+    },
 ];
 
 export const dataTestimonials = [
